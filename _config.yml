@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 'Tobey的小木屋'
+subtitle: '记录Tobey 的学习、生活感悟的小木屋'
+description: '这是一共供Tobey 自娱自乐的小树洞，通过Hexo+github+netlify+cloudflare+腾讯云，实现'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Tobey Guo 
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://tobey-cabin.netlify.app/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
