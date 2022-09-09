@@ -8,7 +8,9 @@ subtitle: '记录Tobey Guo的学习、生活感悟的小木屋'
 description: ''
 keywords:
 author: Tobey Guo 
-language: zh-CN en
+language: 
+ - zh-CN 
+ - en
 timezone: 'Asia/Shanghai'
 
 # URL
