@@ -72,12 +72,12 @@ footer:
 # Gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-    enable: false
-    clientID: # Default ClientID
-    clientSecret: # Default ClientSecret
-    repo: # The name of repository of store comments
-    owner: # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize github issues
+    enable: true
+    clientID: Iv1.1a48770d7834e053 # Default ClientID
+    clientSecret: c71f2c22a7c35cb2dbd626383a15a0bf3deaf606  # Default ClientSecret
+    repo: gitalk-comment # The name of repository of store comments
+    owner: GuoShuaiGO # GitHub repo owner
+    admin:  [GuoShuaiGO] # GitHub repo owner and collaborators, only these guys can initialize github issues
     language: zh-CN en # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
     proxy: # CORS proxy
     sites: # Sites
