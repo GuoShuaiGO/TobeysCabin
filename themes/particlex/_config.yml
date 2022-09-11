@@ -73,8 +73,8 @@ footer:
 # https://github.com/gitalk/gitalk
 gitalk:
     enable: true
-    clientID: Iv1.1a48770d7834e053 # Default ClientID
-    clientSecret: c71f2c22a7c35cb2dbd626383a15a0bf3deaf606  # Default ClientSecret
+    clientID: 8f4976e027fbda8dd147 # Default ClientID
+    clientSecret: 23ec91414867398b1a88f6a1fd27167e5df5aa78  # Default ClientSecret
     repo: gitalk-comment # The name of repository of store comments
     owner: GuoShuaiGO # GitHub repo owner
     admin:  [GuoShuaiGO] # GitHub repo owner and collaborators, only these guys can initialize github issues
