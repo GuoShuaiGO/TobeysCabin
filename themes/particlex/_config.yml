@@ -1,14 +1,14 @@
 # Theme Github link: https://github.com/argvchs/hexo-theme-particlex
 # Developer: argvchs
 
-# avatar image url
-head_img: https://img1.imgtp.com/2022/09/05/3sZRTTBg.jpg
+# avatar image url 头像图片
+head_img: https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/QQ%E5%9B%BE%E7%89%8720230101095724.jpg
 
 # home page head info block
 head_block_enable: true
 
-# home page head background style
-home_background: https://img1.imgtp.com/2022/09/05/EfLX8AwI.jpg
+# home page head background style 背景图片
+home_background: https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/wallhaven.png
 
 # WARNING! vf_fonts (variable fonts) feature is EXPERIMENTAL
 # MDN: https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
