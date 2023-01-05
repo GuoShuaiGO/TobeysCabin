@@ -1,23 +1,23 @@
-# Theme Github link: https://github.com/argvchs/hexo-theme-particlex
-# Developer: argvchs
+# ParticleX Configuration
+# https://github.com/argvchs/hexo-theme-particlex
 
-# avatar image url 头像图片
-head_img: https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/QQ%E5%9B%BE%E7%89%8720230101095724.jpg
+# Avatar image  头像
+avatar: https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/QQ%E5%9B%BE%E7%89%8720230101095724.jpg
 
-# home page head info block
-head_block_enable: true
+# Home page info block
+headBlockEnable: true
 
-# home page head background style 背景图片
-home_background: https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/wallhaven.png
+# Home page background image 背景图片
+background: https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/wallhaven.png
 
-# WARNING! vf_fonts (variable fonts) feature is EXPERIMENTAL
-# MDN: https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
-vf_fonts_enable: false
+# Highlight style
+# https://highlightjs.org
+highlightStyle: github
 
-# ParticleX theme icon is adopts the font awesome 6
-# Link: https://fontawesome.com/search/
+# ParticleX theme icon is adopts the Font Awesome 6
+# https://fontawesome.com/search
 
-# main menu navigation
+# Main menu navigation
 menu:
     home:
         name: house
@@ -39,54 +39,125 @@ menu:
         name: tags
         theme: solid
         src: /tags
-    # Example:
     # <name>:
     #     name: <icon-name>
     #     theme: <icon-theme>
     #     src: <link-url>
 
-# side info card
+# Side info card card部分的信息
 card:
     enable: true
-    description: ["这是一个供tobey写学习，生活方面感想的blog树洞，主要是为了自娱自乐\n 别问有没有技术含量，问就是没有，问就全是ctrl+cv"] # You can add more
-    icon_links:
-        []
-        # Example:
+    description:
+        - "这是一个供tobey写学习，生活方面感想的blog树洞，主要是为了自娱自乐\n 别问有没有技术含量，问就是没有，问就全是ctrl+cv"
+          # 还想添加其他description如下方法
+          # - "..."
+    iconLinks:
+        {}
         # <name>:
         #    name: <icon-name>
         #    theme: <icon-theme>
         #    link: <link-url>
-    friend_links:
-        []
-        # Example:
+    friendLinks:
+        {}
         # <name>: <link-url>
 
-# footer info
+# Footer info 位置部分的信息
 footer:
-    since: 20xx
+    since: 2022-8-27
     # Customize the server domain name ICP
     ICP:
         enable: false
         code:
+        link:
 
-#下边这句话原本打算设置摘要来着，但是发现有没有都没什么区别
-# excerpt_description: true
+# Polyfill
+# https://polyfill.io/v3/url-builder
+polyfill:
+    enable: true
+    features:
+        - default
 
+# Rendering math with KaTeX
+math:
+    enable: false
+
+# Article encryption
+crypto:
+    enable: false
+
+# Search
+search:
+    enable: false
+    path: /search.json
 
 # Gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-    enable: true
-    clientID: 8f4976e027fbda8dd147 # Default ClientID
-    clientSecret: 23ec91414867398b1a88f6a1fd27167e5df5aa78  # Default ClientSecret
-    repo: gitalk-comments # The name of repository of store comments
-    owner: GuoShuaiGO # GitHub repo owner
-    admin:  [GuoShuaiGO] # GitHub repo owner and collaborators, only these guys can initialize github issues
-    language: zh-CN en # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available.
+    enable: false
+    clientID: # Default ClientID
+    clientSecret: # Default ClientSecret
+    repo: # The name of repository of store comments
+    owner: # GitHub repo owner
+    admin: # GitHub repo owner and collaborators, only these guys can initialize github issues
+    language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru, de, pl and ko are currently available
     proxy: # CORS proxy
     sites: # Sites
-        []
-        # Example:
+        {}
         # <www.example.com>:
         #    clientID: <client-id>
         #    clientSecret: <client-secret>
+
+# Giscus
+# https://github.com/giscus/giscus
+giscus:
+    enable: false
+    src: https://giscus.app/client.js # Default src
+    repo:
+    repoID:
+    category:
+    categoryID:
+    mapping: pathname
+    strict: 0
+    reactionsEnabled: 1
+    emitMetadata: 0
+    inputPosition: bottom
+    theme: preferred_color_scheme
+    lang: zh-CN
+
+# Waline
+# https://github.com/walinejs/waline
+waline:
+    enable: false
+    serverURL: # Waline server address url, you should set this to your own link
+    locale: # Locale: https://waline.js.org/guide/client/i18n.html#locale-option
+        {}
+        # e.g.:
+        # placeholder: Leave a comment
+    commentCount: true # If false, comment count will only be displayed in post page, not in home page
+    pageview: false # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`
+    emoji: # Custom emoji
+        - https://unpkg.com/@waline/emojis@1.0.1/weibo
+        - https://unpkg.com/@waline/emojis@1.0.1/alus
+        - https://unpkg.com/@waline/emojis@1.0.1/bilibili
+        - https://unpkg.com/@waline/emojis@1.0.1/qq
+        - https://unpkg.com/@waline/emojis@1.0.1/tieba
+        - https://unpkg.com/@waline/emojis@1.0.1/tw-emoji
+    meta: # Comment information, valid meta are nick, mail and link
+        - nick
+        - mail
+        - link
+    requiredMeta: # Set required meta field, e.g.: [nick] | [nick, mail]
+        - nick
+    lang: zh-CN # Language, available values: en-US, zh-CN, zh-TW, pt-BR, ru-RU, jp-JP
+    wordLimit: 0 # Word limit, no limit when setting to 0
+    login: enable # Whether enable login, can choose from 'enable', 'disable' and 'force'
+    pageSize: 10 # Comment per page
+
+# Twikoo
+# https://github.com/imaegoo/twikoo
+twikoo:
+    enable: false
+    envId:
+    region:
+    path: location.pathname
+    lang: zh-CN
