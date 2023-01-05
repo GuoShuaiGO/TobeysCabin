@@ -1,7 +1,12 @@
 ---
 title: token和图床问题
 date: 2023-01-01 15:36:22
-tags: site
+categories: site
+tag:
+    - 图床
+    - jsDelivr 加速
+    - github token
+    - 端口查看
 ---
 
 
