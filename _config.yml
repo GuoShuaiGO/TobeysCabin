@@ -99,10 +99,40 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: landscape
+# theme: 主题的选择，对应主题在themes文件夹内
 theme: particlex
 
+#hexo 压缩静态文件以此实现优化访问速度对应的辅助插件
+uglify:
+    mangle: true
+    output:
+    compress:
+    exclude:
+        - "*.min.js"
+        - "**/*.min.js"
+
+clean_css:
+    exclude:
+        - "*.min.css"
+        - "**/*.min.css"
+
+html_minifier:
+    collapseBooleanAttributes: true
+    collapseWhitespace: true
+    ignoreCustomComments: [!!js/regexp /^\s*more/]
+    removeComments: true
+    removeEmptyAttributes: true
+    removeScriptTypeAttributes: true
+    removeStyleLinkTypeAttributes: true
+    minifyJS: true
+    minifyCSS: true
+
+
+
+
+
 # Deployment
+#hexo deploy 对应的部署位置
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
