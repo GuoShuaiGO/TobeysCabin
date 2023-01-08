@@ -58,8 +58,9 @@ card:
         #    theme: <icon-theme>
         #    link: <link-url>
     friendLinks:
-        {}
+        #{}
         # <name>: <link-url>
+        argvchs : https://argvchs.github.io/
 
 # Footer info 位置部分的信息
 footer:
