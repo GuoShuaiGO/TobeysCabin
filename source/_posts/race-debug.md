@@ -2,8 +2,8 @@
 title: race debug
 date: 2023-01-05 23:14:35
 categories:
-      - gwx
-      - c++
+      - [c++]
+      - [gwx]
 tags:
       - c++ debug
       - 竞赛
