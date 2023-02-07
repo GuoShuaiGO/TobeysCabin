@@ -2,13 +2,13 @@
 # https://github.com/argvchs/hexo-theme-particlex
 
 # Avatar image  头像
-avatar: https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/QQ%E5%9B%BE%E7%89%8720230101095724.jpg
+avatar: https://imgshack.netlify.app/img/QQ%E5%9B%BE%E7%89%8720230101095724.jpg
 
 # Home page info block
 headBlockEnable: true
 
 # Home page background image 背景图片
-background: https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/wallhaven.png
+background: https://imgshack.netlify.app/img/wallhaven.png
 
 # Highlight style
 # https://highlightjs.org
