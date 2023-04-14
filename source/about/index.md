@@ -2,51 +2,25 @@
 title: about
 ---
 
+# VPR——南海妈组制作
 
-## 这里是Tobey 的木屋
-
-
-
-🎊🎊🎊🎉🎉**这个blog是一时心血来潮建立的**🎉🎉🎊🎊🎊
+![image-20230414210837870](https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/image-20230414210837870.png)
 
 
 
 
 
-## 前言
+## VPR( Voice of Pure Radiance )
 
-它一定有很多不完善之处，所以这个木屋🏡🏡 处于正在建造中👷‍♂️👷‍♂️
+**VPR( Voice of Pure Radiance )** 是我们团队的声纹识别`Voiceprint Recognition`**==（VPR）==**基于`TDNN（Time Delay Neural Network，时延神经网络）`，优化算法的基础上研发的项目。我们可以做到
 
-放心，我应该不会像恒大一样的✊✊
-
-
-
-### 技术问题
-
-如果你问这个`blog site`有什么技术含量吗？
-
-​		**别问，问就是没有，问就才疏学浅，我是CV工程师（指Crtl + C，Crtl+V）**
-
-​		实际上，要问确实有没有，也确实没有，但就是没有技术含量，我还搭建了好几天😭😭😭
+- 大规模声纹识别
+- 声纹解锁，匹配用户
+- 事实识别，测绘用户
 
 
 
-#### 使用到的工具
+## 开发人员
 
-- **HEXO** 基于`nodeJS`的一个静态网站搭建包，有了它可以很快的渲染出自己的`html`
-- **Netlify** 一个静态网页挂载平台， 有了它能够实现远程挂载静态网页，就是将你的文件放在人家的服务器上，属于是高级版QQ空间了
-- **Github** 我的静态文件就是放在这里，之后通过Netlify连接到这个仓库实现`push`之后的云端更新
-- **加速工具** 很多人的博客都有加速工具，能够更快速的访问blog ，我感觉现在速度还行，暂时没有
-- **Tencent Cloud** 我的域名就是在这里申请的，SSL证书Netlify能够自动绑定，就没用这里申请到的SSL实现https
+<img src="https://cdn.jsdelivr.net/gh/GuoShuaiGO/Image_Shack_BLOG@main/img/image-20230414214715254.png" alt="image-20230414214715254" style="zoom:80%;" />
 
-
-
-
-
-
-
-## 反馈
-
-如果你有什么更好的**意见或者建议**可以在评论区反馈
-
-当然你想加**友链**的话也可以在评论区提申请
