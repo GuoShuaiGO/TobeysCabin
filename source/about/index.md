@@ -12,7 +12,9 @@ title: about
 
 ## VPR( Voice of Pure Radiance )
 
-**VPR( Voice of Pure Radiance )** 是我们团队的声纹识别`Voiceprint Recognition`**==（VPR）==**基于`TDNN（Time Delay Neural Network，时延神经网络）`，优化算法的基础上研发的项目。我们可以做到
+**VPR( Voice of Pure Radiance )** 是我们团队的声纹识别`Voiceprint Recognition` **（即  VPR）**    
+
+基于`TDNN（Time Delay Neural Network，时延神经网络）`，优化算法的基础上研发的项目。我们可以做到
 
 - 大规模声纹识别
 - 声纹解锁，匹配用户
