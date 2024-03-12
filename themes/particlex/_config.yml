@@ -48,7 +48,7 @@ menu:
 card:
     enable: true
     description:
-        - "这是一个供tobey写学习，生活方面感想的blog树洞，主要是为了自娱自乐\n 别问有没有技术含量，问就是没有，问就全是ctrl+cv"
+        - "这是一个供tobey写学习，生活方面感想的blog树洞，主要是为了偶尔记录一下学习过程中的感悟\n❗❗AI向的内容就不写了，计划就写一些不怎么重要的小东西（这个是toy性质的个人主页，不适合专业的内容）❗❗"
           # 还想添加其他description如下方法
           # - "..."
     iconLinks:
@@ -58,9 +58,9 @@ card:
         #    theme: <icon-theme>
         #    link: <link-url>
     friendLinks:
-        #{}
+        {}
         # <name>: <link-url>
-        argvchs : https://argvchs.github.io/
+        # argvchs : https://argvchs.github.io/
 
 # Footer info 位置部分的信息
 footer:
